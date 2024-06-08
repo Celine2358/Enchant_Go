@@ -171,30 +171,22 @@ func RadiantEnchant() {
     case "y":
         RadiantStone++
         if radiantSuccess < 60 {
-            fmt.Printf("★ 광휘석 강화에 성공했습니다!! ★\n")
+            fmt.Printf("★ 광휘석 강화에 성공했습니다!! ★\n\n")
             if randomOption == 1 {
-                fmt.Printf("추가옵션 : [방어력 +10]\n\n")
                 RadiantOption = 1
             } else if randomOption == 2 {
-                fmt.Printf("추가옵션 : [피해 감소 +2%%]\n\n")
                 RadiantOption = 2
             } else if randomOption == 3 {
-                fmt.Printf("추가옵션 : [MaxHP +400]\n\n")
                 RadiantOption = 3
             } else if randomOption == 4 {
-                fmt.Printf("추가옵션 : [MaxMP +150]\n\n")
                 RadiantOption = 4
             } else if randomOption == 5 {
-                fmt.Printf("추가옵션 : [물리 속성 내성 +4%%]\n\n")
                 RadiantOption = 5
             } else if randomOption == 6 {
-                fmt.Printf("추가옵션 : [방어력 +25]\n\n")
                 RadiantOption = 6
             } else if randomOption == 7 {
-                fmt.Printf("추가옵션 : [피해 감소 +1%% / 물리 속성 내성 +3%%]\n\n")
                 RadiantOption = 7
             } else if randomOption == 8 {
-                fmt.Printf("추가옵션 : [방어력 +20 / MaxHP +240]\n\n")
                 RadiantOption = 8
             }
         } else {
